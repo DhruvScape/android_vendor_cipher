@@ -225,10 +225,6 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
-# Dex preopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
-
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/cipher/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/cipher/overlay/common
 
